@@ -49,12 +49,11 @@ background: url(C:\xampp\htdocs\Tugas_Besar_Kami\logo perpus.png);
 	color: white;
 	text-align: center;
 	padding: 14px 16px;
-	text-decoration: none;
-	hover:not(.active) 
-	background-color: red;
-	font-size: 19px;
+	
 }
-
+.logout:hover:not(.active) {
+  background-color: red;
+font-size: 19px;}
 </style>
 </head>
 <body>
@@ -64,10 +63,10 @@ background: url(C:\xampp\htdocs\Tugas_Besar_Kami\logo perpus.png);
 <ul>
 <li><a href="#pinjam">Perpustakaan BETA&nbsp;</a></li>
 <li><img src="logo perpus.png" height="50"></li>
-<li ><a href ="C:\xampp\htdocs\projekakhir\logout.php" class="logout">Logout<a/></li>
 <li style="float:right"><a href="#pinjam" class="">Pinjam&nbsp;</a></li>
 <li style="float:right"><a href="#buku" class="">Buku&nbsp;</a></li>
-<li style="float:right"><a href="Latihan Checkbox dan tombol radio.html" class="">Home&nbsp;</a></li>
+<li style="float:right"><a href="" class="">Home&nbsp;</a></li>
+ <a class="logout" href ="logout.php">Logout<a/>
 </ul>
 
 <div class="background"><img src="Reinhard Görner Library Hall, Upper Lusatian Library of Sciences, Görlitz.png" style="border-radius: 5%;opacity: 70%;color-adjust: black;" width="100%" height="400px">
