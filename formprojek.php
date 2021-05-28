@@ -79,7 +79,11 @@ img{
      height: 111px;
      position:;
 	 }
-
+.jalan{
+	width:100%;
+	color:cornflowerblue;
+	font-size:x-large;
+}
 </style>
 <html>
 <head>
@@ -88,6 +92,7 @@ img{
     </head>
    
     <body>
+	<marquee onmouseover="this.stop()" onmouseout="this.start()" class='jalan' bgcolor="beige">SELAMAT DATANG DI WEBSITE KAMI!!! SILAHKAN MASUKKAN Userid DAN Password</marquee>
 
         <div class="container" align="center">
 		<div class"center">

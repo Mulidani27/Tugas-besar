@@ -2,6 +2,16 @@
 <meta charset="utf-8">
 <title>Untitled Document</title>
 <style>
+.tulisan{
+position: absolute;
+top: 52.5%;
+right: 29%;
+color: #ffef00;
+font-size: 20px;
+font-family: PT Sans Caption,sans-serif;
+font-style: italic;
+font-weight: bold;
+}
 ul {
   list-style-type: none;
   margin: 0;
@@ -41,7 +51,8 @@ font-size: 19px;
   background-color: #DAA520;
 }
 .background{
-background: url(C:\xampp\htdocs\Tugas_Besar_Kami\logo perpus.png);
+background:url(Tugas_Besar_Kami/logo perpus.png)no-repeat;
+
 }
 .logout{
 	float: right;
@@ -54,25 +65,31 @@ background: url(C:\xampp\htdocs\Tugas_Besar_Kami\logo perpus.png);
 .logout:hover:not(.active) {
   background-color: red;
 font-size: 19px;}
+.tindih{
+	position:absolute;
+	width :180 px;
+	top:135px;
+	right:45%;
+}
 </style>
 </head>
-<body>
+<body class="background">
 
 
 
 <ul>
-<li><a href="#pinjam">Perpustakaan BETA&nbsp;</a></li>
+<li><a href="#pinjam">Perpustakaan BETA</a></li>
 <li><img src="logo perpus.png" height="50"></li>
 <li style="float:right"><a href="Pinjam.php" class="">Pinjam</a></li>
 <li style="float:right"><a href="Daftarbuku.php" class="">Buku</a></li>
 <li style="float:right"><a href="Tugas_besar_Home.php" class="">Home</a></li>
- <a class="logout" href ="logout.php">Logout<a/>
-</ul>
+ <a class="logout" href="logout.php">Logout</a><a>
+</a></ul><a>
 
-<div class="background"><img src="Reinhard Görner Library Hall, Upper Lusatian Library of Sciences, Görlitz.png" style="border-radius: 5%;opacity: 70%;color-adjust: black;" width="100%" height="400px">
-
-	
-</div>
+<div><img src="Reinhard Görner Library Hall, Upper Lusatian Library of Sciences, Görlitz.png" style="border-radius: 5%;opacity: 65.5%;color-adjust: black;" width="100%" height="400px"></div>
+<div class="tindih"><img src="logo perpus.png" style=" width:150px;"></div>
+<div class="tulisan">
+<h2 >Selamat Datang Di Perpustakaan BETA</h2></div>
 <table cellspacing="1" border="0">
 <tbody><tr height="50px">
 <th style="background-color: aqua;border-radius: 10%;" width="1000px">TENTANG&nbsp;</th>
@@ -91,4 +108,4 @@ font-size: 19px;}
 	
 	
 
-<input id="ext-version" type="hidden" value="1.3.6"></body></html>
+</a><input id="ext-version" type="hidden" value="1.3.6"></body></html>

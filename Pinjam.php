@@ -74,6 +74,23 @@ padding-left: 5%;
 padding-right: 5%;
 border: 0
 }
+#tombol{
+position: absolute;
+width: 105px;
+height: 45px;
+left: 45%;
+top: 100%;
+background: #5C8AFF;
+border-radius: 21px;
+color: white;
+font-size: 20px;
+font-family: fira-sans;
+text-align: center;
+text-align-last: center;
+border: 0;
+padding: 5px;
+margin: 10px;
+}
 .logout{
 	float: right;
 	display: block;
@@ -85,6 +102,7 @@ border: 0
 .logout:hover:not(.active) {
   background-color: red;
 font-size: 19px;}
+
 </style>
 <ul>	
 <li><a href= "Tugas besar Home.html">Perpustakaan BETA&nbsp;</a></li>
@@ -95,20 +113,20 @@ font-size: 19px;}
  <a class="logout" href ="logout.php">Logout<a/>
 </ul>
 
-<form style="/*! padding: inherit; *//*! border: 100px; *//*! padding-bottom: ; *//*! padding-bottom: 100px; */padding-top: 50px;/*! padding-bottom: px; */">
+<form method ="post" action="vallogin.php" style="/*! padding: inherit; *//*! border: 100px; *//*! padding-bottom: ; *//*! padding-bottom: 100px; */padding-top: 50px;/*! padding-bottom: px; */">
 <fieldset style="/*! padding: unset; *//*! padding-bottom: 200px; */width: 98%;height: 100%;">
 <legend>PINJAM BUKU</legend>
 <table style="/*! position: */padding-bottom: 50;padding-top: 50;" cellspacing="1" border="0" align="center">
 		<thead>
 			<tr>
-				<th width="400px" height="50">Tanggal Kembali <input type="textarea" placeholder="Tanggal Kembali.." name="userid" id="userid" required=""></th>
+				<th width="400px" height="50">Tanggal Kembali <input type="date" placeholder="Tanggal Kembali.." name="userid" id="userid" required=""></th>
 				<th width="400px">Nama siswa <input type="textarea" placeholder="Masukkan Nama siswa.." name="siswa" id="siswa" required=""></th>
 			</tr>
 		</thead>
 		<tbody>
 
 			<tr>
-				<th width="400px" height="100px">Tangga Pinjam&nbsp;&nbsp;				  <input type="textarea" placeholder="Masukkan tgl pinjam.." name="pinjam" id="pinjam" required=""></th>
+				<th width="400px" height="100px">Tangga Pinjam&nbsp;&nbsp;				  <input type="date" placeholder="Masukkan tgl pinjam.." name="pinjam" id="pinjam" required=""></th>
 				<th>No. Anggota	<input type="textarea" placeholder="Masukkan no anggota.." name="anggota" id="anggota" required=""></th>
 			</tr>
 </tbody></table><table style="background-color: B2FBB1;" width="100%" height="10%" border="0">
@@ -118,7 +136,7 @@ font-size: 19px;}
     </tr>
   </tbody>
   </table>
- <button type="submit"><div class="submit">Cetak</div></button>
+ <button name="tombol" id="tombol" type="submit">Submit</button>
  <table cellspacing="1" align="center">
  <tbody><tr>
 		<th width="400px" height="100px">Kode Buku	 <input type="textarea" placeholder="Masukkan kode buku.." name="kode" id="kode" required=""></th>
