@@ -93,7 +93,7 @@ img{
 		<div class"center">
 		<img src="logo perpus.png" align="middle">
           <h1>perpustakaan beta</h1>
-            <form method = "post" action="vallogin.php">
+            <form method = "post" action="Pinjam.php">
                 <label>Userid</label><br>
                 <input type="textarea" placeholder="Masukan Id..." name="userid" id="userid" required ><br>
                 <label>Password</label><br>

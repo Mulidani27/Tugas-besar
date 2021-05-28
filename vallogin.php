@@ -11,7 +11,7 @@ if($chek>0)
     session_start();
     $row = mysqli_fetch_array($user);
     $_SESSION['username'] = $row['username'];
-    header("location:sukses.php");
+    header("location:Pinjam.php");
 }else
 {
 	session_start();
