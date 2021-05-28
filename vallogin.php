@@ -11,11 +11,11 @@ if($chek>0)
     session_start();
     $row = mysqli_fetch_array($user);
     $_SESSION['username'] = $row['username'];
-    header("location:Pinjam.php");
+    header("location:Tugas_besar_Home.php");
 }else
 {
 	session_start();
 	$_SESSION['pesan'] = "Password atau Username Anda salah!";
-    header("location:formprojek.php");
-}
+    header("location:formprojek.php       ");
+}	
 ?>

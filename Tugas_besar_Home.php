@@ -42,30 +42,36 @@ font-size: 19px;
 }
 .background{
 background: url(C:\xampp\htdocs\Tugas_Besar_Kami\logo perpus.png);
+}
+.logout{
+	float: right;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	hover:not(.active) 
+	background-color: red;
+	font-size: 19px;
+}
+
 </style>
 </head>
 <body>
 
-<ul>	
-<<<<<<< HEAD
-<li><a href= "Tugas besar Home.html">Perpustakaan BETA&nbsp;</a></li>
-<li><img src= "logo perpus.png" height="50"></li>
-<li style="float:right" ><a href= "Pinjam.html" class=".beta">Pinjam&nbsp;</a></li>
-<li style="float:right"><a href= "Daftar buku.html" class=".beta">Buku&nbsp;</a></li>
-<li style="float:right"><a href= "Tugas besar Home.html" href="#home" class=".beta">Home&nbsp;</a></li>
-</ul>
 
-<div class="background"><img src= "Reinhard Görner Library Hall, Upper Lusatian Library of Sciences, Görlitz.png" style="border-radius: 5%;opacity: 70%;color-adjust: black;" width="100%" height="400px">
-=======
+
+<ul>
 <li><a href="#pinjam">Perpustakaan BETA&nbsp;</a></li>
 <li><img src="logo perpus.png" height="50"></li>
-<li style="float:right"><a href="#pinjam" class=".beta">Pinjam&nbsp;</a></li>
-<li style="float:right"><a href="#buku" class=".beta">Buku&nbsp;</a></li>
-<li style="float:right"><a href="Latihan Checkbox dan tombol radio.html" class=".beta">Home&nbsp;</a></li>
+<li ><a href ="C:\xampp\htdocs\projekakhir\logout.php" class="logout">Logout<a/></li>
+<li style="float:right"><a href="#pinjam" class="">Pinjam&nbsp;</a></li>
+<li style="float:right"><a href="#buku" class="">Buku&nbsp;</a></li>
+<li style="float:right"><a href="Latihan Checkbox dan tombol radio.html" class="">Home&nbsp;</a></li>
 </ul>
 
 <div class="background"><img src="Reinhard Görner Library Hall, Upper Lusatian Library of Sciences, Görlitz.png" style="border-radius: 5%;opacity: 70%;color-adjust: black;" width="100%" height="400px">
->>>>>>> dd6bb4c43e24dd5aaef3cbdbba19a7ceff7e9171
+
 	
 </div>
 <table cellspacing="1" border="0">
