@@ -63,9 +63,9 @@ font-size: 19px;}
 <ul>
 <li><a href="#pinjam">Perpustakaan BETA&nbsp;</a></li>
 <li><img src="logo perpus.png" height="50"></li>
-<li style="float:right"><a href="#pinjam" class="">Pinjam&nbsp;</a></li>
-<li style="float:right"><a href="#buku" class="">Buku&nbsp;</a></li>
-<li style="float:right"><a href="" class="">Home&nbsp;</a></li>
+<li style="float:right"><a href="Pinjam.php" class="">Pinjam</a></li>
+<li style="float:right"><a href="Daftarbuku.php" class="">Buku</a></li>
+<li style="float:right"><a href="Tugas_besar_Home.php" class="">Home</a></li>
  <a class="logout" href ="logout.php">Logout<a/>
 </ul>
 

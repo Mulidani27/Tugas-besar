@@ -74,13 +74,25 @@ padding-left: 5%;
 padding-right: 5%;
 border: 0
 }
+.logout{
+	float: right;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	
+}
+.logout:hover:not(.active) {
+  background-color: red;
+font-size: 19px;}
 </style>
 <ul>	
 <li><a href= "Tugas besar Home.html">Perpustakaan BETA&nbsp;</a></li>
 <li><img src= "logo perpus.png" height="50"></li>
 <li style="float:right" ><a href= "Pinjam.php" class=".beta">Pinjam&nbsp;</a></li>
-<li style="float:right"><a href= "Daftar buku.html" class=".beta">Buku&nbsp;</a></li>
-<li style="float:right"><a href= "Tugas besar Home.html" href="#home" class=".beta">Home&nbsp;</a></li>
+<li style="float:right"><a href= "Daftarbuku.php" >Buku</a></li>
+<li style="float:right"><a href= "Tugas_besar_Home.php"  >Home</a></li>
+ <a class="logout" href ="logout.php">Logout<a/>
 </ul>
 
 <form style="/*! padding: inherit; *//*! border: 100px; *//*! padding-bottom: ; *//*! padding-bottom: 100px; */padding-top: 50px;/*! padding-bottom: px; */">
