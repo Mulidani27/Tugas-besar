@@ -113,21 +113,33 @@ font-size: 19px;}
  <a class="logout" href ="logout.php">Logout<a/>
 </ul>
 
-<form method ="post" action="insertdata.php" style="/*! padding: inherit; *//*! border: 100px; *//*! padding-bottom: ; *//*! padding-bottom: 100px; */padding-top: 50px;/*! padding-bottom: px; */">
+<?php
+	include 'config.php';
+	$id = $_GET['id'];
+	//var_dump($id);
+	$data = mysqli_query($connect, "select * from pinjam_akhir where idpinjam = '$id'");
+	if(mysqli_num_rows($data) > 0)
+	{
+		while($key = mysqli_fetch_array($data))
+		{
+		
+?>
+<form method ="post" action="updatedata.php" style="/*! padding: inherit; *//*! border: 100px; *//*! padding-bottom: ; *//*! padding-bottom: 100px; */padding-top: 50px;/*! padding-bottom: px; */">
 <fieldset style="/*! padding: unset; *//*! padding-bottom: 200px; */width: 98%;height: 100%;">
 <legend>PINJAM BUKU</legend>
 <table style="/*! position: */padding-bottom: 50;padding-top: 50;" cellspacing="1" border="0" align="center">
 		<thead>
 			<tr>
-				<th width="400px" height="50">Tanggal Kembali <input type="date" placeholder="Tanggal Kembali.." name="kembali" id="kembali" required=""></th>
-				<th width="400px">Nama siswa <input type="textarea" placeholder="Masukkan Nama siswa.." name="siswa" id="siswa" required=""></th>
+			
+				<th width="400px" height="50">Tanggal Kembali <input type="date" value ="<?php echo $key['tanggal_kembali'] ?>" placeholder="Tanggal Kembali.." name="kembali" id="kembali" required=""></th>
+				<th width="400px">Nama siswa <input type="textarea" value ="<?php echo $key['nama_siswa'] ?>" placeholder="Masukkan Nama siswa.." name="siswa" id="siswa" required=""></th>
 			</tr>
 		</thead>
 		<tbody>
 
 			<tr>
-				<th width="400px" height="100px">Tanggal Pinjam<input type="date" placeholder="Masukkan tgl pinjam.." name="pinjam" id="pinjam" required=""></th>
-				<th>No. Anggota	<input type="textarea" placeholder="Masukkan no anggota.." name="anggota" id="anggota" required=""></th>
+				<th width="400px" height="100px">Tanggal Pinjam<input type="date" value ="<?php echo $key['tanggal_pinjam'] ?>" placeholder="Masukkan tgl pinjam.." name="pinjam" id="pinjam" required=""></th>
+				<th>No. Anggota	<input type="textarea" value ="<?php echo $key['no_anggota'] ?>" placeholder="Masukkan no anggota.." name="anggota" id="anggota" required=""></th>
 			</tr>
 </tbody></table><table style="background-color: B2FBB1;" width="100%" height="10%" border="0">
   <tbody>
@@ -139,16 +151,20 @@ font-size: 19px;}
  <button name="tombol" id="tombol" type="submit">Submit</button>
  <table cellspacing="1" align="center">
  <tbody><tr>
-		<th width="400px" height="100px">Kode Buku	 <input type="textarea" placeholder="Masukkan kode buku.." name="kode" id="kode" required=""></th>
+		<th width="400px" height="100px">Kode Buku	 <input type="textarea" value ="<?php echo $key['kode_buku'] ?>" placeholder="Masukkan kode buku.." name="kode" id="kode" required=""></th>
 
-		<th width="400px" height="100px">Judul Buku <input type="textarea" placeholder="Masukkan Judul buku.." name="judul" id="judul" required=""></th>
+		<th width="400px" height="100px">Judul Buku <input type="textarea" value ="<?php echo $key['judul_buku'] ?>"  placeholder="Masukkan Judul buku.." name="judul" id="judul" required=""></th>
 		
 		</tr>
  </tbody></table>
-
+ <input type="hidden" value ="<?php echo $key['idpinjam'] ?>" placeholder="Tanggal Kembali.." name="idpinjam" id="idpinjam" required="">
 	
 
 </fieldset></form>
+<?php
+		}
+	}
+?>
 <div class="footer">
 <h3>©KHAIRIN SAJIDA</h3><table>
 
