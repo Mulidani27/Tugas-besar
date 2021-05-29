@@ -59,6 +59,13 @@ padding-top:
 .logout:hover:not(.active) {
   background-color: red;
 font-size: 19px;}
+	
+.buku:hover:not(.active) {
+  background-color: grey;
+font-size: 19px;}
+	
+	
+
 </style>
 <ul>	
 <li><a href= "Tugas besar Home.html">Perpustakaan BETA&nbsp;</a></li>
@@ -76,9 +83,9 @@ font-size: 19px;}
 		
 			<tr>
 				<th width="400px" height="50">NOVEL</th>
-				<th width="400px"><img src="poto/220px-Laskar_pelangi_sampul.jpg" width="100px" height="200px"></th>
-				<th width="400px" height="50"><img src= "poto/covernya.jpg" width="100px" height="200px"></th>
-				<th width="400px" height="50"><img src= "poto/Cover.jpg" width="100px" height="200px"></th>
+				<th width="400px" class="buku"><a href="Laskar Pelangi.html"><img src="poto/220px-Laskar_pelangi_sampul.jpg" width="100px" height="200px"></a></th>
+				<th width="400px" height="50" class="buku"><a href="Dilan.html"><img src= "poto/covernya.jpg" width="100px" height="200px"></a></th>
+				<th width="400px" height="50" class="buku"><a href="Sharelock Holmes.html"><img src= "poto/Cover.jpg" width="100px" height="200px"></a></th>
 			</tr>
 			
 			<tr style=>
@@ -96,9 +103,9 @@ font-size: 19px;}
 
 			<tr>
 				<th width="400px" height="100px">PENDIDIKAN</th>
-				<th><img src=  "poto/unnamed (1).jpg" width="100px" height="200px"</th>
-				<th width="400px" height="100px"><img src= "poto/bse-a_5c3c4132e2bd4681735087.jpg" width="100px" height="200px"</th>
-				<th width="400px" height="50"><img src= "poto/111748_f.jpg" width="100px" height="200px"></th>
+				<th class="buku"><a href="https://bsd.pendidikan.id/data/2013/kelas_10sma/guru/Kelas_10_SMA_Bahasa_Indonesia_Guru_2017.pdf"><img src=  "poto/unnamed (1).jpg" width="100px" height="200px"</a></th>
+				<th width="400px" height="100px"  class="buku"><a href="https://assets.annibuku.com/bse/Kelas1/Kelas1_buku_siswa_ppkn_kelas_ix_2175.pdf"> <img src= "poto/bse-a_5c3c4132e2bd4681735087.jpg" width="100px" height="200px"</a></th>
+				<th width="400px" height="50" class="buku"><a href="http://repository.uin-malang.ac.id/741/1/PAI.pdf"></a><img src= "poto/111748_f.jpg" width="100px" height="200px"></a></th>
 			</tr>
 			<tr style=>
 				<th width="400px"></th></th>
@@ -114,9 +121,9 @@ font-size: 19px;}
 			</tr>
 			<tr>
 			  <th width="400px" height="100px">SEJARAH</th>
-				<th><img src=  "poto/97087_f.jpg" width="100px" height="200px"></th>
-				<th width="400px" height="100px"><img src= "poto/Buku-Perspektif-Pendidikan-dalam-Bingkai_Kurniawan-Convert-depan.jpg" width="100px" height="200px"></th>
-				<th width="400px" height="50"><img src= "poto/10967668.jpg" width="100px" height="200px"></th>
+				<th class="buku"><a href="Sejarah Dunia Yang Disembunyikan.html"><img src=  "poto/97087_f.jpg" width="100px" height="200px"></a></th>
+				<th width="400px" height="100px" class="buku"><a href="Pendidikan Dalam Bingkai Ilmu dan Tokoh.html"><img src= "poto/Buku-Perspektif-Pendidikan-dalam-Bingkai_Kurniawan-Convert-depan.jpg" width="100px" height="200px"></a></th>
+				<th width="400px" height="50" class="buku"><a href="Romusha.html"><img src= "poto/10967668.jpg" width="100px" height="200px"></a></th>
 			</tr>
   			<tr style=>
 				<th width="400px"></th></th>
