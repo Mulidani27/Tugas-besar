@@ -94,6 +94,12 @@ font-size: 19px;}
 				<th width="400px">Dilan 1990</th>
 				<th width="400px">Sharelock Holmes </th>
 			</tr>
+			<tr style="font-size: 13px">
+				<th width="400px"></th></th>
+				<th width="400px">#NV78546</th>
+				<th width="400px">#NV63547</th>
+				<th width="400px">#NV03218 </th>
+			</tr>
 			<tr height="50px">
 				<th width="400px" ></th></th>
 			  <th width="400px"></th>
@@ -107,11 +113,19 @@ font-size: 19px;}
 				<th width="400px" height="100px"  class="buku"><a href="https://assets.annibuku.com/bse/Kelas1/Kelas1_buku_siswa_ppkn_kelas_ix_2175.pdf"> <img src= "poto/bse-a_5c3c4132e2bd4681735087.jpg" width="100px" height="200px"</a></th>
 				<th width="400px" height="50" class="buku"><a href="http://repository.uin-malang.ac.id/741/1/PAI.pdf"></a><img src= "poto/111748_f.jpg" width="100px" height="200px"></a></th>
 			</tr>
+			
 			<tr style=>
 				<th width="400px"></th></th>
 				<th width="400px">Buku Ajar B. Indonesia</th>
 				<th width="400px">BukuAjar PPKN</th>
 				<th width="400px">Buku Ajar Agama Islam </th>
+			</tr>
+			</tr>
+			<tr style="font-size: 13px">
+				<th width="400px"></th>
+				<th width="400px">#BA85369</th>
+				<th width="400px">#BA99658</th>
+				<th width="400px">#BA98765 </th>
 			</tr>
 			<tr height="50px">
 				<th width="400px" ></th></th>
@@ -130,6 +144,13 @@ font-size: 19px;}
 				<th width="400px">Sejarah Dunia Yang Disembunyikan</th>
 				<th width="400px">Pendidika Dalam Bingkai Ilmu dan Tokoh</th>
 				<th width="400px">Romusha </th>
+
+			</tr>
+			<tr style="font-size: 13px">
+				<th width="400px"></th>
+				<th width="400px">#SJ63214</th>
+				<th width="400px">#SJ93254</th>
+				<th width="400px">#SJ63598 </th>
 			</tr>
 			<tr height="50px">
 				<th width="400px" ></th></th>
