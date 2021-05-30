@@ -90,7 +90,7 @@ text-align-last: center;
 border: 0;
 padding: 5px;
 margin: 10px;
-margin-left: 500px;
+margin-left: 360px;
 }
 #print{
 float: right;
@@ -108,7 +108,7 @@ text-align-last: center;
 border: 0;
 padding: 5px;
 margin: 10px;
-margin-right: 550px;
+margin-right: 430px;
 }
 
 </style>
